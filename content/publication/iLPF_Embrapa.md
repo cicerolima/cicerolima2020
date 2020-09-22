@@ -11,7 +11,7 @@ selected = false
 title = "Projeções de Impactos dos Sistemas iLPF sobre Mudanças no Uso da Terra no Brasil"
 #url_code = "#"
 #url_dataset = "#"
-#url_pdf = "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=5606"
+url_pdf = "http://ainfo.cnptia.embrapa.br/digital/bitstream/item/212452/1/Skorupa-sistemas-integracao-2019.pdf"
 #url_project = "project/deep-learning/"
 #url_slides = "#"
 #url_video = "#"

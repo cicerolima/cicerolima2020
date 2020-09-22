@@ -10,8 +10,8 @@ role: Research Economist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Purdue University - GTAP Center
-  url:
+- name: Global Trade Analysis Project
+  url: https://www.gtap.agecon.purdue.edu/
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -52,7 +52,7 @@ social:
 #  link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap  # OR `google-scholar`
   icon_pack: fas  # OR `ai`
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=TIZbeD8AAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/czlima
@@ -83,4 +83,4 @@ Cicero Lima is a Postdoctoral research associate at Department of Agricultural E
 His research interest concerns agricultural economics, climate change, land-use and land-use changes. Currently, he is working on the impacts of heat stress on Global agricultural labor, as well as the macroeconomic consequences of enhanced biodiversity and ecosystem services, such as pollination, sea-level raise, water scarcity.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv_cicero_lima.pdf" "newtab" >}}CV{{< /staticref >}}.

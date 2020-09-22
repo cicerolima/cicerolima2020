@@ -11,7 +11,7 @@ selected = false
 title = "Implications of biofuel production on direct and indirect land use change: Evidence from Brazil"
 #url_code = "#"
 #url_dataset = "#"
-#url_pdf = "https://www.gtap.agecon.purdue.edu/resources/res_display.asp?RecordID=5606"
+url_pdf = "files/XI-1.pdf"
 #url_project = "project/deep-learning/"
 #url_slides = "#"
 #url_video = "#"
