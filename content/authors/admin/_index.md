@@ -60,14 +60,14 @@ social:
   icon_pack: fab
   link: //www.linkedin.com/in/czlima/
 - icon: researchgate
-  icon_pack: ai
+  icon_pack: 'ai'
   link: https://www.researchgate.net/profile/Cicero_Lima6
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
  - icon: cv
-   icon_pack: ai
+   icon_pack: 'ai'
    link: files/cv_cicero_lima.pdf
 
 # Email for Contact widget or Gravatar
