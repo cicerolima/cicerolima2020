@@ -45,7 +45,7 @@ local_business_type = ""
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = [ { name = "Global Trade Analysis Project", url = "http://www.gtap.agecon.purdue.edu/" } ]
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
@@ -88,8 +88,8 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
+email = "czlima@gmail.com"
+phone = "+55 11 98812 5537"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
