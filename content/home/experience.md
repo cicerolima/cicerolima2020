@@ -43,7 +43,7 @@ date_format = "Jan 2006"
   location = "São Paulo, SP, Brazil"
   date_start = "2017-08-30"
   date_end = "2017-11-01"
-  #description = """Taught agricultural price analysis for FGV MBA courses."""
+  description = """
 
 [[experience]]
   title = "Professor"
