@@ -31,6 +31,7 @@ date_format = "Jan 2006"
   * Modelling
   * Deploying
   """
+
 [[experience]]
   title = "Pos doc research associate"
   company = "Purdue University - GTAP Center"
