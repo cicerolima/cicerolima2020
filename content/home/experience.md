@@ -26,6 +26,7 @@ date_format = "Jan 2006"
   date_end = "2020-09-18"
   description = """External consultant under Project 251 - FAPED/CNPSO/SRUC - NEXUS Cód. 10200.11/0215-8"""
   Responsibilities include:
+  
   * Development of SIMPLE-BR model
   * Application of SIMPLE-BR and BREA models
   """
@@ -33,7 +34,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Pos doc research associate"
   company = "Purdue University - GTAP Center"
-  company_url = ""
+  company_url = "https://www.gtap.agecon.purdue.edu"
   location = "West Lafayette, IN, United States"
   date_start = "2018-02-01"
   date_end = "2020-02-01"
