@@ -25,10 +25,6 @@ date_format = "Jan 2006"
   date_start = "2020-04-01"
   date_end = "2020-09-18"
   description = """External consultant under Project 251 - FAPED/CNPSO/SRUC - NEXUS Cód. 10200.11/0215-8"""
-  Responsibilities include:
-  
-  * Development of SIMPLE-BR model
-  * Application of SIMPLE-BR and BREA models
   """
 
 [[experience]]
