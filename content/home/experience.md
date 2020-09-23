@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2020-04-01"
   date_end = "2020-09-18"
   description = """External consultant under Project 251 - FAPED/CNPSO/SRUC - NEXUS Cód. 10200.11/0215-8"""
-  """
+  
 
 [[experience]]
   title = "Pos doc research associate"
@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   location = "West Lafayette, IN, United States"
   date_start = "2018-02-01"
   date_end = "2020-02-01"
-  description = """
+
 
 [[experience]]
   title = "Pos doc research associate"
@@ -43,7 +43,7 @@ date_format = "Jan 2006"
   location = "São Paulo, SP, Brazil"
   date_start = "2017-08-30"
   date_end = "2017-11-01"
-  description = """
+
 
 [[experience]]
   title = "Professor"
