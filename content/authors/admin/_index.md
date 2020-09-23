@@ -10,8 +10,8 @@ role: Research Economist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Global Trade Analysis Project
-  url: https://www.gtap.agecon.purdue.edu/
+- name:
+  url:
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.

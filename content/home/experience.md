@@ -18,14 +18,14 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Short-term consultant"
+  title = "Short-term research economist"
   company = "EMBRAPA Agricultural Informatics"
   company_url = "https://www.embrapa.br/en/informatica-agropecuaria"
   location = "Campinas, SP, Brazil"
   date_start = "2020-04-01"
   date_end = "2020-09-18"
   description = """External consultant under Project 251 - FAPED/CNPSO/SRUC - NEXUS Cód. 10200.11/0215-8"""
-  
+
 
 [[experience]]
   title = "Pos doc research associate"
@@ -43,7 +43,7 @@ date_format = "Jan 2006"
   location = "São Paulo, SP, Brazil"
   date_start = "2017-08-30"
   date_end = "2017-11-01"
-
+  description = """Partnership with [AGROICONE](http://agroicone.com.br)."""
 
 [[experience]]
   title = "Professor"
