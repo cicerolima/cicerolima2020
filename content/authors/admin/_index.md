@@ -79,8 +79,8 @@ user_groups:
 - Principal Investigators
 ---
 
-Cicero Lima is a Postdoctoral research associate at Department of Agricultural Economics, Purdue University, USA.
-His research interest concerns agricultural economics, climate change, land-use and land-use changes. Currently, he is working on the impacts of heat stress on Global agricultural labor, as well as the macroeconomic consequences of enhanced biodiversity and ecosystem services, such as pollination, sea-level raise, water scarcity.
+Cicero Lima is a DSc in Applied Economics who recently finished a two-year postdoc at Purdue University - Global Trade Analysis Project (GTAP), USA. Cicero's most recent research has focused on how heat stress on agricultural works exacerbates crops impacts of climate change. Also, his research focus on macroeconomic consequences of enhanced biodiversity and ecosystem services, such as pollination, sea-level raise, water scarcity. He developed the Simplified International Model of agricultural Prices, Land use and the Environment for Brazil (SIMPLE-BR) a computational economic model of global agriculture which he extensively use in his research. The same way, the developed the Brazilian Economic Analysis (BREA) a general equilibrium model of Brazilian economy and agriculture. He has international experience working on several projects for WWF-UK, World Bank, Central Bank in Brazil, EMBRAPA-SRUC (Edinburgh). Currently, he is a research consultant under the IEEM project at IDB and wait (as the whole World) a vaccine for COVID-19 to resume the job market searching ;) .       
+
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv_cicero_lima.pdf" "newtab" >}}CV{{< /staticref >}}.
