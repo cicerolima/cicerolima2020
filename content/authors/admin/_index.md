@@ -81,8 +81,4 @@ user_groups:
 
 Cicero Lima is a DSc in Applied Economics who recently finished a two-year postdoc at Purdue University - Global Trade Analysis Project (GTAP), USA. Cicero's most recent research has focused on how heat stress on agricultural works exacerbates crops impacts of climate change. Also, his research focus on macroeconomic consequences of enhanced biodiversity and ecosystem services, such as pollination, sea-level raise, water scarcity. He co-developed the Simplified International Model of agricultural Prices, Land use and the Environment for Brazil (SIMPLE-BR) a computational economic model of global agriculture which he extensively use in his research. The same way, he developed the Brazilian Economic Analysis (BREA) a general equilibrium model of Brazilian economy and agriculture. He has international experience working on several projects for WWF-UK, World Bank, Central Bank in Brazil, EMBRAPA-SRUC (Edinburgh). Currently, he is a research consultant under the Project 251 - FAPED/CNPSO/SRUC at EMBRAPA Agricultural Informatics and wait (as the whole World) a vaccine for COVID-19 to resume the job market searching ;)
 
-#Currently, he is a research consultant under the IEEM project at IDB and wait (as the whole World) a vaccine for COVID-19 to resume the job market searching ;) .       
-
-
-
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv_cicero_lima.pdf" "newtab" >}}CV{{< /staticref >}}.
