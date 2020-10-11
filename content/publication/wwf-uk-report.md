@@ -11,14 +11,14 @@ selected = false
 title = "Global Futures: Modelling the global economic impacts of environmental change to support policy-making"
 #url_code = "#"
 #url_dataset = "#"
-url_pdf = "https://www.wwf.org.uk/sites/default/files/2020-02/Global_Futures_Technical_Report.pdf"
+url_pdf = "http://www.wwf.org.uk/sites/default/files/2020-02/Global_Futures_Technical_Report.pdf"
 #url_project = "project/deep-learning/"
 #url_slides = "#"
 #url_video = "#"
 
 #[[url_custom]]
 #name = "SOBER"
-url = "https://www.wwf.org.uk/globalfutures"
+url = "http://www.wwf.org.uk/globalfutures"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
