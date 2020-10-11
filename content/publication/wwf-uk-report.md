@@ -16,8 +16,8 @@ url_pdf = "http://www.wwf.org.uk/sites/default/files/2020-02/Global_Futures_Tech
 #url_slides = "#"
 #url_video = "#"
 
-#[[url_custom]]
-#name = "SOBER"
+[[url_custom]]
+name = "WWF"
 url = "http://www.wwf.org.uk/globalfutures/"
 
 # Optional featured image (relative to `static/img/` folder).
