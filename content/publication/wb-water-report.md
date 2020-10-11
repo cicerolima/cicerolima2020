@@ -11,14 +11,14 @@ selected = false
 title = "Water in the Balance : The Economic Impacts of Climate Change and Water Scarcity in the Middle East"
 #url_code = "#"
 #url_dataset = "#"
-#url_pdf = "http://openknowledge.worldbank.org/handle/10986/34498/"
+url_pdf = "https://openknowledge.worldbank.org/bitstream/handle/10986/34498/153087.pdf?sequence=1&isAllowed=y"
 #url_project = "project/deep-learning/"
 #url_slides = "#"
 #url_video = "#"
 
-#[[url_custom]]
-#name = "SOBER"
-#url = "http://openknowledge.worldbank.org/handle/10986/34498/"
+[[url_custom]]
+name = "World Bank"
+url = "http://openknowledge.worldbank.org/handle/10986/34498/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
