@@ -18,7 +18,7 @@ url_pdf = "http://www.wwf.org.uk/sites/default/files/2020-02/Global_Futures_Tech
 
 #[[url_custom]]
 #name = "SOBER"
-url = "http://www.wwf.org.uk/globalfutures"
+url = "http://www.wwf.org.uk/globalfutures/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
