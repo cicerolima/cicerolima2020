@@ -27,6 +27,15 @@ date_format = "Jan 2006"
   date_end = ""
   description = """External consultant under Integrated Economic-Environmental Modelling Framework project"""
 
+  [[experience]]
+    title = "Research economist"
+    company = "Fundação Getúlio Vargas - FGV-EESP"
+    company_url = "https://www.iadb.org/en"
+    location = "São Paulo, SP, Brazil"
+    date_start = "2020-10-01"
+    date_end = ""
+    description = """Research economist - Project APEX-Brazil / MRE and FGV/EESP"""
+
 [[experience]]
   title = "Short-term research economist"
   company = "EMBRAPA Agricultural Informatics"
