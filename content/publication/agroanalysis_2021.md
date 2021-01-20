@@ -1,5 +1,5 @@
 +++
-abstract = ""
+abstract = "O agronegócio será um dos setores mais impactados com o aumento do Imposto sobre Circulação de Mercadorias e Serviços (ICMS), medida esta tomada pelo governo do estado de São Paulo para reduzir o rombo nas contas públicas causado pela pandemia de COVID-19. O Centro de Agronegócio da Fundação Getulio Vargas (FGV Agro) estima que a decisão causará uma perda de consumo de até R$ 21,4 bilhões em bens e serviços e uma redução de R$ 6,8 bilhões no Produto Interno Bruto (PIB) da região Sudeste."
 authors = ["Talita Priscila Pinto", "Cicero Zanetti de Lima", "Angelo Costa Gurgel"]
 date = "2021-01-01"
 image_preview = ""
