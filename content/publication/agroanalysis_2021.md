@@ -1,17 +1,17 @@
 +++
 abstract = ""
-authors = ["Cicero Zanetti de Lima", "Talita Priscila Pinto"]
-date = "2020-04-01"
+authors = ["Talita Priscila Pinto", "Cicero Zanetti de Lima", "Angelo Costa Gurgel"]
+date = "2021-01-01"
 image_preview = ""
 math = true
 publication_types = ["2"]
-publication = "In *AGROANALYSIS (FGV)*, v. 40, n. 4, p. 21, 2020"
+publication = "In *AGROANALYSIS (FGV)*, v. 41, n. 1, p. 22, 2021"
 publication_short = "In *AGROANALYSIS (FGV)*"
 selected = false
-title = "Como superar a crise que está por vir."
+title = "Mais perdedores do que ganhadores com o aumento do ICMS em São Paulo"
 #url_code = "#"
 #url_dataset = "#"
-url_pdf = "files/X-3.pdf"
+url_pdf = "files/2021_01_ICMS.pdf"
 #url_project = "project/deep-learning/"
 #url_slides = "#"
 #url_video = "#"
