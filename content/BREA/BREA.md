@@ -1,15 +1,22 @@
 ---
 title: Brazilian Economic Analysis
-date: "2021-01-28"
+subtitle: Learn how to blog in Academic using Jupyter notebooks
+summary: Learn how to blog in Academic using Jupyter notebooks
+authors:
+- admin
+tags: []
+categories: []
+date: "2019-02-05T00:00:00Z"
+lastMod: "2019-09-05T00:00:00Z"
+featured: false
 draft: false
-share: false
-commentable: false
-editable: false
+date: "2021-01-28"
 
-# Optional header image (relative to `static/media/` folder).
-header:
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
   caption: ""
-  image: ""
+  focal_point: ""
 ---
 
 O modelo BREA (Brazilian Economic Analysis) é caracterizado em seu núcleo central
@@ -21,7 +28,7 @@ como é o caso da representação da região MATOPIBA e a explícita separação
 Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 às regiões Centro-Oeste e Norte.
 
-![breareg](./breareg.png)
+![png](/img/breareg.png)
 **Figura 1.** Biomas brasileiros (esquerda) e agregação regional do modelo (direita).
 
 O modelo segue o fluxo circular da renda de uma economia. A estrutura da demanda final é composta pelos gastos público (governo) e privado (famílias), ambos para consumo e investimento entre os bens e serviços do modelo. O comportamento dos agentes no modelo segue a maximização da sua função de utilidade. Pelo lado das famílias, elas demandam bens e serviços dado sua restrição orçamentária. As preferências são hipoteticamente contínuas e convexas, portanto, as demandas derivadas são homogêneas de grau zero com relação aos preços, ou seja, somente os preços relativos podem ser determinados.
