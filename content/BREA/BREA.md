@@ -31,7 +31,20 @@ Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 ![png](/img/breareg.png)
 **Figura 1.** Biomas brasileiros (esquerda) e agregação regional do modelo (direita).
 
-O modelo segue o fluxo circular da renda de uma economia. A estrutura da demanda final é composta pelos gastos público (governo) e privado (famílias), ambos para consumo e investimento entre os bens e serviços do modelo. O comportamento dos agentes no modelo segue a maximização da sua função de utilidade. Pelo lado das famílias, elas demandam bens e serviços dado sua restrição orçamentária. As preferências são hipoteticamente contínuas e convexas, portanto, as demandas derivadas são homogêneas de grau zero com relação aos preços, ou seja, somente os preços relativos podem ser determinados.
+```mermaid
+graph TD
+A[Produção] -->|CES|
+A --> B[Capital-Trabalho]
+A --> C[Recurso-intensivo]
+C --> D[Terra]
+C --> E[Energia-materiais]
+E --> F[Energia agregada]
+E --> G[Insumos-intermediários]
+F --> H[Eletricidade]
+F --> I[Outras fontes de energia]
+```
+
+o fluxo circular da renda de uma economia. A estrutura da demanda final é composta pelos gastos público (governo) e privado (famílias), ambos para consumo e investimento entre os bens e serviços do modelo. O comportamento dos agentes no modelo segue a maximização da sua função de utilidade. Pelo lado das famílias, elas demandam bens e serviços dado sua restrição orçamentária. As preferências são hipoteticamente contínuas e convexas, portanto, as demandas derivadas são homogêneas de grau zero com relação aos preços, ou seja, somente os preços relativos podem ser determinados.
 
 As firmas demandam fatores de produção (por exemplo, capital e trabalho) para a produção de bens e serviços. As famílias recebem a renda dos fatores de produção e transformam em demanda de bens e serviços produzidos pelas firmas. A igualdade entre oferta e demanda determina os preços de equilíbrio dos fatores de produção, bens e serviços. O modelo BREA em sua versão estática é resolvido para a projeção de diferentes cenários definidos pelo usuário para responder questões específicas, onde os fatores de produção são considerados exógenos.
 No lado da produção, a tecnologia é baseada nos retornos constantes à escala combinando bens intermediários e fatores de produção. No equilíbrio do modelo o lucro econômico das firmas é zero. Cada firma (setor) pode ter uma específica tecnologia de produção e demanda de insumos e fatores de produção para minimizar seus custos de produção.
@@ -63,6 +76,7 @@ I_r &:& \sum_i (vdim_{ir} + viim_{ir} + viimr_{ir} + R_{ir}^I) = vimi_r\\\\
 FT_{fr} &:& evom_{fr} = \sum_j vfm_{fjr}$$
 
 # Representação Tecnológica
+
 ```mermaid
 graph TD
 A[Produção] -->|CES|
