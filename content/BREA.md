@@ -8,7 +8,7 @@ title = "Brazilian Economy Analysis model"
 subtitle = ""
 
 [content]
-# Brazilian Economic Analysis
+Brazilian Economic Analysis
 O modelo BREA (Brazilian Economic Analysis) é caracterizado em seu núcleo central
 como um modelo estático multi-regional de equilíbrio geral computável (LIMA, 2017).
 O modelo representa o Brasil em 6 (seis) regiões: Sul, Sudeste, Centro-Oeste, Nordeste, MATOPIBA e Norte.
