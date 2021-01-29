@@ -21,7 +21,7 @@ como é o caso da representação da região MATOPIBA e a explícita separação
 Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 às regiões Centro-Oeste e Norte.
 
-![breareg](breareg.png)
+![breareg](/static/img/breareg.png)
 **Figura 1.** Biomas brasileiros (esquerda) e agregação regional do modelo (direita).
 
 O modelo segue o fluxo circular da renda de uma economia. A estrutura da demanda final é composta pelos gastos público (governo) e privado (famílias), ambos para consumo e investimento entre os bens e serviços do modelo. O comportamento dos agentes no modelo segue a maximização da sua função de utilidade. Pelo lado das famílias, elas demandam bens e serviços dado sua restrição orçamentária. As preferências são hipoteticamente contínuas e convexas, portanto, as demandas derivadas são homogêneas de grau zero com relação aos preços, ou seja, somente os preços relativos podem ser determinados.
