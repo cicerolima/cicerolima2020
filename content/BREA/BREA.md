@@ -41,6 +41,7 @@ A Figura 2, a seguir, apresenta um esboço da estrutura econômica do modelo. Os
 
 ![png](/img/breastruct.png)
 **Figura 2.** Estrutura da economia regional do modelo.
+
 A produção doméstica $vom_{ir}$ é distribuída em demanda intermediária ($vdfm_{ijr}$) e para o vetor de demanda final, tal como consumo das famílias ($vdpm_{ir}$), investimento ($vdim_{ir}$), demanda do governo e exportações ($vxmd_{irrow}$). A identidade contábil na base de dados é:
 
 $$vom_{ir} = \sum_i vdfm_{ijr} + vdpm_{ir} + vdim_{ir} + vdgm_{ir} + \sum_s vxmdr_{irs} + vxmd_{irrow}$$
@@ -60,3 +61,17 @@ C_r &:& \sum_i (vdpm_{ir} + vipm_{ir} + vipmr_{ir} + R_{ir}^C) = vpm_r\\\\
 G_r &:& \sum_i vdgm_{ir} = vgm_r\\\\
 I_r &:& \sum_i (vdim_{ir} + viim_{ir} + viimr_{ir} + R_{ir}^I) = vimi_r\\\\
 FT_{fr} &:& evom_{fr} = \sum_j vfm_{fjr}$$
+
+# Representação Tecnológica
+```mermaid
+graph TD
+A[Produção] -->|CES|
+A --> B[Capital-Trabalho]
+A --> C[Recurso-intensivo]
+C --> D[Terra]
+C --> E[Energia-materiais]
+E --> F[Energia agregada]
+E --> G[Insumos-intermediários]
+F --> H[Eletricidade]
+F --> I[Outras fontes de energia]
+```
