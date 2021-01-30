@@ -27,7 +27,7 @@ como é o caso da representação da região MATOPIBA e a explícita separação
 Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 às regiões Centro-Oeste e Norte.
 
-```mermaid
+```
 graph TD
 A[Produção] -->|CES|
 A --> B[Capital-Trabalho]
