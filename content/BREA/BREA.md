@@ -18,7 +18,6 @@ image:
   caption: ""
   focal_point: ""
 ---
-
 O modelo BREA (Brazilian Economic Analysis) é caracterizado em seu núcleo central
 como um modelo estático multi-regional de equilíbrio geral computável (LIMA, 2017).
 O modelo representa o Brasil em 6 (seis) regiões: Sul, Sudeste, Centro-Oeste, Nordeste, MATOPIBA e Norte.
@@ -27,6 +26,19 @@ agregações geopolíticas do Brasil com diferenciação para regiões de fronte
 como é o caso da representação da região MATOPIBA e a explícita separação do estado do
 Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 às regiões Centro-Oeste e Norte.
+
+```mermaid
+graph TD
+A[Produção] -->|CES|
+A --> B[Capital-Trabalho]
+A --> C[Recurso-intensivo]
+C --> D[Terra]
+C --> E[Energia-materiais]
+E --> F[Energia agregada]
+E --> G[Insumos-intermediários]
+F --> H[Eletricidade]
+F --> I[Outras fontes de energia]
+```
 
 ![png](/img/breareg.png)
 **Figura 1.** Biomas brasileiros (esquerda) e agregação regional do modelo (direita).
@@ -74,16 +86,3 @@ I_r &:& \sum_i (vdim_{ir} + viim_{ir} + viimr_{ir} + R_{ir}^I) = vimi_r\\\\
 FT_{fr} &:& evom_{fr} = \sum_j vfm_{fjr}$$
 
 # Representação Tecnológica
-
-```mermaid
-graph TD
-A[Produção] -->|CES|
-A --> B[Capital-Trabalho]
-A --> C[Recurso-intensivo]
-C --> D[Terra]
-C --> E[Energia-materiais]
-E --> F[Energia agregada]
-E --> G[Insumos-intermediários]
-F --> H[Eletricidade]
-F --> I[Outras fontes de energia]
-```
