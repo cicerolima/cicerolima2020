@@ -11,7 +11,7 @@ lastMod: "2019-09-05T00:00:00Z"
 featured: false
 draft: false
 date: "2021-01-28"
-
+diagram: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
@@ -31,20 +31,7 @@ Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 ![png](/img/breareg.png)
 **Figura 1.** Biomas brasileiros (esquerda) e agregação regional do modelo (direita).
 
-```mermaid
-graph TD
-A[Produção] -->|CES|
-A --> B[Capital-Trabalho]
-A --> C[Recurso-intensivo]
-C --> D[Terra]
-C --> E[Energia-materiais]
-E --> F[Energia agregada]
-E --> G[Insumos-intermediários]
-F --> H[Eletricidade]
-F --> I[Outras fontes de energia]
-```
-
-o fluxo circular da renda de uma economia. A estrutura da demanda final é composta pelos gastos público (governo) e privado (famílias), ambos para consumo e investimento entre os bens e serviços do modelo. O comportamento dos agentes no modelo segue a maximização da sua função de utilidade. Pelo lado das famílias, elas demandam bens e serviços dado sua restrição orçamentária. As preferências são hipoteticamente contínuas e convexas, portanto, as demandas derivadas são homogêneas de grau zero com relação aos preços, ou seja, somente os preços relativos podem ser determinados.
+O modelo segue o fluxo circular da renda de uma economia. A estrutura da demanda final é composta pelos gastos público (governo) e privado (famílias), ambos para consumo e investimento entre os bens e serviços do modelo. O comportamento dos agentes no modelo segue a maximização da sua função de utilidade. Pelo lado das famílias, elas demandam bens e serviços dado sua restrição orçamentária. As preferências são hipoteticamente contínuas e convexas, portanto, as demandas derivadas são homogêneas de grau zero com relação aos preços, ou seja, somente os preços relativos podem ser determinados.
 
 As firmas demandam fatores de produção (por exemplo, capital e trabalho) para a produção de bens e serviços. As famílias recebem a renda dos fatores de produção e transformam em demanda de bens e serviços produzidos pelas firmas. A igualdade entre oferta e demanda determina os preços de equilíbrio dos fatores de produção, bens e serviços. O modelo BREA em sua versão estática é resolvido para a projeção de diferentes cenários definidos pelo usuário para responder questões específicas, onde os fatores de produção são considerados exógenos.
 No lado da produção, a tecnologia é baseada nos retornos constantes à escala combinando bens intermediários e fatores de produção. No equilíbrio do modelo o lucro econômico das firmas é zero. Cada firma (setor) pode ter uma específica tecnologia de produção e demanda de insumos e fatores de produção para minimizar seus custos de produção.
@@ -63,9 +50,20 @@ Os insumos de produção incluem insumos intermediários (doméstico e importado
 
 $$\sum_i vfm_{fir} = evom_{fr}$$
 
+O mercado internacional é governado pelos bens e serviços importados e exportados. Bens importados tem um agregado $vim_{ir}$ composto pela demanda intermediária ($vifm_{ijr}$), consumo privado ($vipm_{ir}$), e investimento ($viim_{ir}$). A identidade contábil na base de dados é:
+
 $$vim_{ir} = \sum_j vifm_{ijr} + vipm_{ir} + viim_{ir}$$
 
 $$vimr_{ir} = \sum_j vifmr_{ijr} + vipmr_{ir} + viimr_{ir}$$
+
+```
+**BOX 1.** Agregação dos impostos e tarifas para definição das condições de lucro zero.
+$$R_{ir}^Y = rto_{ir} + \sum_f rtf_{fir} + \sum_j (rtfi_{jir} + rtfd_{jir}) \\\\
+R_{ir}^M = rtms_{irrow}\\\\
+R_{ir}^C = rtpd_{ir} + rtpi_{ir}\\\\\
+R_{ir}^I = rtid_{ir} + rtii_{ir}$$
+```
+
 
 $$Y_{ir} &:& \sum_f vfm_{fir} + \sum_j(vifm_{jir} + vdfm_{jir} + vifmr_{jir}) + R_{ir}^Y = vom_{ir}\\\\
 M_{ir} &:& vxmd_{irowr} + R_{ir}^M = vim_{ir}\\\\
