@@ -27,6 +27,28 @@ como é o caso da representação da região MATOPIBA e a explícita separação
 Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 às regiões Centro-Oeste e Norte.
 
+```mermaid
+{
+  "theme": "dark"
+}
+graph TD
+A[Doméstico] ---  C[Produção <br> CES]
+B[Exportação] ---  C
+C --- D[Capital-Trabalho <br> CES]
+C --- E[Recurso-intensivo <br> CES]
+E --- F[Terra]
+E --- G[Energia-materiais <br> CES]
+G --- H[Energia agregada <br> CES]
+G --- I[Insumos-intermediários <br> σ = 0]
+H --- Eletricidade
+H --- K[Outras fontes de energia <br> σ = 0]
+K --- Petróleo
+K --- L[Gás Natural]
+K --- Carvão
+K --- M[Outros petróleo]
+```
+
+
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbkFbRG9tw6lzdGljb10gLS0tICBDW1Byb2R1w6fDo28gPGJyPiBDRVNdXG5CW0V4cG9ydGHDp8Ojb10gLS0tICBDXG5DIC0tLSBEW0NhcGl0YWwtVHJhYmFsaG8gPGJyPiBDRVNdXG5DIC0tLSBFW1JlY3Vyc28taW50ZW5zaXZvIDxicj4gQ0VTXVxuRSAtLS0gRltUZXJyYV1cbkUgLS0tIEdbRW5lcmdpYS1tYXRlcmlhaXMgPGJyPiBDRVNdXG5HIC0tLSBIW0VuZXJnaWEgYWdyZWdhZGEgPGJyPiBDRVNdXG5HIC0tLSBJW0luc3Vtb3MtaW50ZXJtZWRpw6FyaW9zIDxicj4gz4MgPSAwXVxuSCAtLS0gRWxldHJpY2lkYWRlXG5IIC0tLSBLW091dHJhcyBmb250ZXMgZGUgZW5lcmdpYSA8YnI-IM-DID0gMF1cbksgLS0tIFBldHLDs2xlb1xuSyAtLS0gTFtHw6FzIE5hdHVyYWxdXG5LIC0tLSBDYXJ2w6NvXG5LIC0tLSBNW091dHJvcyBwZXRyw7NsZW9dIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRhcmsifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbkFbRG9tw6lzdGljb10gLS0tICBDW1Byb2R1w6fDo28gPGJyPiBDRVNdXG5CW0V4cG9ydGHDp8Ojb10gLS0tICBDXG5DIC0tLSBEW0NhcGl0YWwtVHJhYmFsaG8gPGJyPiBDRVNdXG5DIC0tLSBFW1JlY3Vyc28taW50ZW5zaXZvIDxicj4gQ0VTXVxuRSAtLS0gRltUZXJyYV1cbkUgLS0tIEdbRW5lcmdpYS1tYXRlcmlhaXMgPGJyPiBDRVNdXG5HIC0tLSBIW0VuZXJnaWEgYWdyZWdhZGEgPGJyPiBDRVNdXG5HIC0tLSBJW0luc3Vtb3MtaW50ZXJtZWRpw6FyaW9zIDxicj4gz4MgPSAwXVxuSCAtLS0gRWxldHJpY2lkYWRlXG5IIC0tLSBLW091dHJhcyBmb250ZXMgZGUgZW5lcmdpYSA8YnI-IM-DID0gMF1cbksgLS0tIFBldHLDs2xlb1xuSyAtLS0gTFtHw6FzIE5hdHVyYWxdXG5LIC0tLSBDYXJ2w6NvXG5LIC0tLSBNW091dHJvcyBwZXRyw7NsZW9dIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRhcmsifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
 ![png](/img/breareg.png)
