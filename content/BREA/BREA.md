@@ -29,16 +29,18 @@ Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 
 ```mermaid
 graph TD
-A[Doméstico] <-- C[Produção]
-B[Exportação] <-- C
-C -->|CES| D[Capital-Trabalho]
-C --> E[Recurso-intensivo]
-E --> F[Terra]
-E --> G[Energia-materiais]
-G --> H[Energia agregada]
-G --> I[Insumos-intermediários]
-H --> J[Eletricidade]
-H --> K[Outras fontes de energia]
+A[Doméstico] --- C[Produção]
+C --- A
+B[Exportação] --- C
+C --- B
+C --- |CES| D[Capital-Trabalho]
+C --- E[Recurso-intensivo]
+E --- F[Terra]
+E --- G[Energia-materiais]
+G --- H[Energia agregada]
+G --- I[Insumos-intermediários]
+H --- J[Eletricidade]
+H --- K[Outras fontes de energia]
 ```
 
 ![png](/img/breareg.png)
