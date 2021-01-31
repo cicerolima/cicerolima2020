@@ -30,9 +30,7 @@ Mato Grosso em biomas (Cerrado e Amazônia) agregados, respectivamente,
 ```mermaid
 graph TD
 A[Doméstico] --- C[Produção]
-C --- A
 B[Exportação] --- C
-C --- B
 C --- |CES| D[Capital-Trabalho]
 C --- E[Recurso-intensivo]
 E --- F[Terra]
