@@ -39,3 +39,8 @@
     name = "BREA"
     url = "/BREA/"
     weight = 80
+
+[[main]]
+    name = "SIMPLE-BR"
+    url = "/SIMPLEBR/"
+    weight = 90
