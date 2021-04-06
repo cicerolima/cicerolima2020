@@ -12,4 +12,4 @@ header:
   caption: ""
   image: ""
 ---
-[English version [here](http://cicerolima.com) ] *Simplified International Model of agricultural Prices, Land use, and the Environment - Brazil*
+[English version [here](http://cicerolima.com/SIMPLEBR-eng/) ] *Simplified International Model of agricultural Prices, Land use, and the Environment - Brazil*
