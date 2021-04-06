@@ -1,5 +1,5 @@
 ---
-title: SIMPLE-BR
+title: Simplified International Model of agricultural Prices, Land use, and the Environment - Brazil
 
 # View.
 #   1 = List
@@ -12,4 +12,4 @@ header:
   caption: ""
   image: ""
 ---
-Teste de como fazer!
+[English version [here](http://cicerolima.com) ] *Simplified International Model of agricultural Prices, Land use, and the Environment - Brazil*
