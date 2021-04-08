@@ -30,7 +30,7 @@ A demanda por alimentos ($PFOOD$) é sensível a preço e renda das famílias, e
 ![png](/img/simple-struct-1.png)
 **Figura 2**. Estrutura do modelo SIMPLE-BR.
 
-A produção agrícola – ***crop*** – no modelo SIMPLE-BR tem quatro usos potenciais: consumo direto ($Q_{CROP}$), consumo como ração no setor de pecuária ($X_{LVSTK}^{CRP}$), processamento de alimentos ($X_{PFOOD}^{CRP}$) e biomassa para fabricação de biocombustível ($X_{BIOF}^{CRP}$) - exógeno ao modelo (**Figura 2**). A produção no modelo utiliza funções do tipo “Constant Elasticity of Substitution” (CES). Outros insumos exceto ***crop*** ($NCROP$) são utilizados para a produção nos setores de pecuária e de alimentos processados ($X_{LVSTK}^{NCRP}$, $X_{PFOOD}^{NCRP}$). Os parâmetros $\sigma_{LVSTK}$ e $\sigma_{PFOOD}$ governam a substituição entre ***crop*** e outros insumos exceto ***crop*** nesses setores. No caso específico da produção da pecuária é esperado que uma redução no preço do insumo ***crop*** pode resultar em uma intensificação no uso de ração por unidade de produção da pecuária.
+A produção agrícola – ***crop*** – no modelo SIMPLE-BR tem quatro usos potenciais: consumo direto ($Q_{CROP}$), consumo como ração no setor de pecuária ($X_{LVSTK}^{CRP}$), processamento de alimentos ($X_{PFOOD}^{CRP}$) e biomassa para fabricação de biocombustível ($X_{BIOF}^{CRP}$) - exógeno ao modelo (**Figura 2**). A produção no modelo utiliza funções do tipo *Constant Elasticity of Substitution* (CES). Outros insumos exceto ***crop*** ($NCROP$) são utilizados para a produção nos setores de pecuária e de alimentos processados ($X_{LVSTK}^{NCRP}$, $X_{PFOOD}^{NCRP}$). Os parâmetros $\sigma_{LVSTK}$ e $\sigma_{PFOOD}$ governam a substituição entre ***crop*** e outros insumos exceto ***crop*** nesses setores. No caso específico da produção da pecuária é esperado que uma redução no preço do insumo ***crop*** pode resultar em uma intensificação no uso de ração por unidade de produção da pecuária.
 
 ![png](/img/simple-struct-2.png)
 **Figura 3**. Diagrama do modelo SIMPLE-BR: o painel inferior (verde) refere-se a produção regional da *commodity* agregada ***crop***. O painel superior (vermelho) refere-se a demanda regional da mesma *commodity*. O destino da produção agrícola compreende consumo direto, uso para ração de animais e processamento, bem como biocombustíveis. Sob a hipótese de mercados segmentados, consumidores e produtores se relacionam tanto no mercado doméstico como no mercado internacional. Já na hipótese de mercados integrados existe apenas um mercado global e um único preço para todas as regiões.
@@ -42,6 +42,9 @@ A oferta global da produção de ***crop*** ($X_{CROP}$) é determinada pela som
 Assume-se, na implementação inicial do modelo SIMPLE-BR, duas hipótese quanto aos mercados: mercados totalmente integrados e mercados segmentados (**Figura 3**). Sob a primeira hipótese (mercados integrados) existe apenas um mercado global para a demanda e oferta de “crop” e, portanto, um preço de equilíbrio entre todas as regiões do modelo. A segunda hipótese (mercados segmentados) é amplamente utilizada em modelos globais de comércio (Hertel, 1997). A especificação de mercados segmentados segue a proposta por Armington (1969) em que produtos domésticos e importados são tratados como bens diferenciados embora substitutos potenciais. Essa especificação possui uma vasta aplicação empírica no comércio agrícola (Villoria & Hertel, 2011). Quanto maior a diferenciação entre os mercados doméstico e internacional, mais segmentado são os mercados para as culturas agrícolas.
 
 # Base de dados
+![png](/img/qcrop2017-2000.png)
+![png](/img/qland2017-2000.png)
+![png](/img/inc2017-2000.png)
 
 # Validação Histórica
 
