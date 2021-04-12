@@ -36,11 +36,16 @@
     weight = 70
 
 [[main]]
+    name = "Working papers"
+    url = "/WP/"
+    weight = 80
+
+[[main]]
     name = "BREA"
     url = "/BREA/"
-    weight = 80
+    weight = 90
 
 [[main]]
     name = "SIMPLE-BR"
     url = "/SIMPLEBR/"
-    weight = 90
+    weight = 100

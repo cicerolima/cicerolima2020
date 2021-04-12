@@ -41,7 +41,7 @@ A oferta global da produção de ***crop*** ($X_{CROP}$) é determinada pela som
 
 Assume-se, na implementação inicial do modelo SIMPLE-BR, duas hipótese quanto aos mercados: mercados totalmente integrados e mercados segmentados (**Figura 3**). Sob a primeira hipótese (mercados integrados) existe apenas um mercado global para a demanda e oferta de “crop” e, portanto, um preço de equilíbrio entre todas as regiões do modelo. A segunda hipótese (mercados segmentados) é amplamente utilizada em modelos globais de comércio (Hertel, 1997). A especificação de mercados segmentados segue a proposta por Armington (1969) em que produtos domésticos e importados são tratados como bens diferenciados embora substitutos potenciais. Essa especificação possui uma vasta aplicação empírica no comércio agrícola (Villoria & Hertel, 2011). Quanto maior a diferenciação entre os mercados doméstico e internacional, mais segmentado são os mercados para as culturas agrícolas.
 
-# Base de dados
+## Base de dados
 A base de dados do modelo SIMPLE-BR é construída para o ano de 2017. A principal fonte para a criação dos dados primários é a FAOSTAT. Uma vantagem do modelo SIMPLE e também do modelo SIMPLE-BR é a sua versatilidade na criação de uma nova base de dados, bem como a inserção de novas fontes de informações.
 
 ![png](/img/qcrop2017-2000.png)
@@ -53,16 +53,17 @@ A base de dados do modelo SIMPLE-BR é construída para o ano de 2017. A princip
 ![png](/img/inc2017-2000.png)
 **Figura 6**. Renda agregada (**INC**) em bilhões USD 2015 (barras com valores no eixo vertical à esquerda) e renda per capita (círculos ano 2000 e triângulos ano 2017) no ano base do modelo SIMPLE-BR.
 
-# Validação Histórica
+## Validação Histórica
 Foi escolhido efetuar a validação do modelo SIMPLE-BR para o período de 2000 a 2017.
 
 | Como a validação funciona na prática? |
 |---------------------------------------|
-|Na prática, a validação do modelo é feita em duas simulações, uma do tipo backward e outra do tipo forward, igualmente feito por Baldos & Hertel (2013). Assim, nesse exercício de validação, primeiro é simulado o efeito backward, ou seja, o ano inicial é 2017 e o ano final é 2000 estabelecendo um equilíbrio histórico no ano final. Logo após, é simulado um experimento de validação forward para 2017 comparando os resultados do modelo com os resultados observados no período. O objetivo aqui é validar as respostas endógenas do modelo para as variáveis de interesse no ano 2017.|
+|Na prática, a validação do modelo é feita em duas simulações, uma do tipo *backward* e outra do tipo *forward*, igualmente feito por Baldos & Hertel (2013). Assim, nesse exercício de validação, primeiro é simulado o efeito *backward*, ou seja, o ano inicial é 2017 e o ano final é 2000 estabelecendo um equilíbrio histórico no ano final. Logo após, é simulado um experimento de validação *forward* para 2017 comparando os resultados do modelo com os resultados observados no período. O objetivo aqui é validar as respostas endógenas do modelo para as variáveis de interesse no ano 2017.|
 
 A escolha da validação para esse período nos deixa confortáveis para projetar o modelo à frente no mesmo intervalo de tempo ou intervalo ligeiramente maior, como por exemplo, até 2035. O processo de validação consiste em comparar as projeções endógenas com as mudanças observadas em algumas variáveis reportadas pelo modelo. A escala de análise se dá tanto a nível global como regional para: (a) produção agrícola, (b) preço, (c) área destinada às lavouras, e (d) produtividade média das culturas. Para obter esses resultados endógenos é inserido no SIMPLE-BR alterações no modelo através dos principais *drivers* da agricultura mundial durante o período de validação, como: população e renda per capita (regional), e produtividade total dos fatores de produção (PTF) para as culturas, pecuária e alimentos processados. A demanda mundial por biomassa pelo setor de biocombustíveis também é projetada no modelo. Os valores dos choques implementados no modelo podem ser observados [aqui]().
 
 Os resultados a nível global da validação histórica são apresentados na **Figura 7** a seguir. É possível perceber que o SIMPLE-BR projeta ótimos resultados para as variáveis analisadas no período entre 2000 e 2017. O modelo ligeiramente superestima o aumento no volume de produção global no período analisado (50,9% contra 41,7%). O modelo também ligeiramente superestima a queda real dos preços (12,6% contra 11,4%). É possível perceber que o SIMPLE-BR projeta com pequena margem de erro a área de lavoura entre 2000 e 2017. O modelo projeta uma área de lavoura maior em 5,4% enquanto os dados observados indicam que a área de lavoura aumentou em 4,6% entre 2000 e 2017. O modelo também ligeiramente superestima a diferença entre a produtividade (43,1% contra 35,4%). O modelo SIMPLE-BR faz um excelente trabalho ao projetar o crescimento da oferta agrícola diferenciando o crescimento entre as margens intensiva e extensiva da oferta. A projeção do preço real agregado das culturas foi satisfatória. O modelo projeta um preço real 12,6% menor em 2017 enquanto os dados observados mostram praticamente a mesma variação . Os resultados globais do modelo indicam que o SIMPLE-BR incorpora os principais drivers e respostas econômicas que determinam as mudanças de médio e longo prazo na agricultura em escala global.
+
 
 
 #
