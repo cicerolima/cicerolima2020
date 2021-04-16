@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   company_url = "https://www.iadb.org/en"
   location = "Washington, DC, USA"
   date_start = "2020-10-13"
-  date_end = ""
+  date_end = "2021-03-10"
   description = """External consultant under Integrated Economic-Environmental Modelling Framework project"""
 
   [[experience]]
