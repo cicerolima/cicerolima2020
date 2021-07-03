@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Short-term research economist"
+  company = "EMBRAPA Agricultural Informatics"
+  company_url = "https://www.embrapa.br/en/informatica-agropecuaria"
+  location = "Campinas, SP, Brazil"
+  date_start = "2021-06-01"
+  date_end = ""
+  description = """External consultant under PRS-Cerrado IABS-IADB and EMBRAPA"""
+
+[[experience]]
   title = "Short-term Research Consultant"
   company = "Inter-American Development Bank (IDB)"
   company_url = "https://www.iadb.org/en"
