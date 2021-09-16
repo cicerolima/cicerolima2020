@@ -19,6 +19,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Temporary Professor"
+  company = "Federal University of Pelotas - Department of Economics"
+  company_url = "https://wp.ufpel.edu.br/economia/"
+  location = "Pelotas, RS, Brazil"
+  date_start = "2021-08-20"
+  date_end = ""
+  description = """Teaching undergrad courses of Econometrics, Economic Law, and Economic Growth (2021-2)"""
+
+[[experience]]
   title = "Short-term research economist"
   company = "EMBRAPA Agricultural Informatics"
   company_url = "https://www.embrapa.br/en/informatica-agropecuaria"
