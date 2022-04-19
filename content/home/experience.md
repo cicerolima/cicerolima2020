@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   location = "Pelotas, RS, Brazil"
   date_start = "2021-08-20"
   date_end = ""
-  description = """Teaching undergrad courses of Econometrics, Economic Law, and Economic Growth (2021-2)"""
+  description = """Teaching undergrad courses of Econometrics, Economic Law, and Economic Growth (2021-2); Economic Formation of Brazil, Economic Theory, and National Accounts (2022-1)"""
 
 [[experience]]
   title = "Short-term research economist"
