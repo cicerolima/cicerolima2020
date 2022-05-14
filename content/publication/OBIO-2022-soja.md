@@ -2,7 +2,7 @@
 abstract = "Esse trabalho faz parte das atividades do Observatório de Conhecimento e Inovação em
 Bioeconomia."
 authors = ["Talita Priscila Pinto", "Cicero Zanetti de Lima", "Camila Genaro", "Eduardo Pavão", "Eduardo A. Assad"]
-date = "2022-05-10"
+date = "2022-05-11"
 image_preview = ""
 math = true
 publication_types = ["4"]
