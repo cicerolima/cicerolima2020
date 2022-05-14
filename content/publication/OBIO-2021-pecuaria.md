@@ -1,6 +1,5 @@
 +++
-abstract = "Esse trabalho faz parte das atividades do Observatório de Conhecimento e Inovação em
-Bioeconomia."
+abstract = "Esse trabalho faz parte das atividades do Observatório de Conhecimento e Inovação em Bioeconomia."
 authors = ["Eduardo A. Assad", "Camila Genaro", "Cicero Zanetti de Lima", "Eduardo Pavão", "Talita Priscila Pinto"]
 date = "2021-11-30"
 image_preview = ""
