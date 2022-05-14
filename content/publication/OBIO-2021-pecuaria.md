@@ -8,8 +8,7 @@ publication_types = ["4"]
 publication = "Observatório de Conhecimento e Inovação em Bioeconomia, 2021"
 publication_short = "In *Observatório de Bioeconomia - FGV report*"
 selected = false
-title = "Potencial de Mitigação de Gases de efeito estufa das ações de descarbonização
-da pecuária até 2030"
+title = "Potencial de Mitigação de Gases de efeito estufa das ações de descarbonização da pecuária até 2030"
 #url_code = "#"
 #url_dataset = "#"
 url_pdf = "https://eesp.fgv.br/sites/eesp.fgv.br/files/ocbio_potencial_de_mitigacao_de_gee_pecuaria_2112.pdf"
