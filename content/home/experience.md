@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   company_url = "https://wp.ufpel.edu.br/economia/"
   location = "Pelotas, RS, Brazil"
   date_start = "2021-08-20"
-  date_end = ""
+  date_end = "2022-08-19"
   description = """Teaching undergrad courses of Econometrics, Economic Law, and Economic Growth (2021-2); Economic Formation of Brazil, Economic Theory, and National Accounts (2022-1)"""
 
 [[experience]]
